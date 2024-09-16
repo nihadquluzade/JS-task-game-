@@ -64,7 +64,7 @@ numberGuessingGame();
 let currentNumber = Math.floor(Math.random() * 100) + 1;
 let nextNumber = Math.floor(Math.random() * 100) + 1;
 
-console.log("Current number:", currentNumber); // Oyuncu bu sayıyı görecek
+console.log("Current number:", currentNumber);
 
 let guess = prompt("Tahmin edin (higher/lower): ").toLowerCase();
 
