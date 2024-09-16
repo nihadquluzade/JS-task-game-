@@ -69,11 +69,11 @@ console.log("Current number:", currentNumber);
 let guess = prompt("Tahmin edin (higher/lower): ").toLowerCase();
 
 if (nextNumber > currentNumber && guess === "higher") {
-    console.log("Doğru tahmin! Next number daha büyük.");
+    console.log("duzgun texmin boyuk.");
 } else if (nextNumber < currentNumber && guess === "lower") {
-    console.log("Doğru tahmin! Next number daha küçük.");
+    console.log("duzgun texmin kicik.");
 } else {
-    console.log(`Yanlış tahmin! Next number: ${nextNumber}`);
+    console.log(`false texmin Next number: ${nextNumber}`);
 }
 
 
